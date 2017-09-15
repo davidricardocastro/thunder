@@ -1,63 +1,53 @@
 {% extends '_base.twig' %} {% block content %}
-<div class="container">
 
 
 
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="img/logo.svg" width="90" height="90" alt="">
-        </a></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-            aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Menu</a>
-                <a class="nav-item nav-link" href="#">Coffee</a>
-                <a class="nav-item nav-link" href="#">Our Story</a>
+
+
+
+
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col p-4">
+                <h1>GENERIC HIPSTER COFFEE</h1>
+                <p>SPECIALTY COFFEE, FRESH FOOD & LOCAL COMMUNITY.</p>
             </div>
-    </nav>
 
-    <div class="row">
-        <div class="col p-4">
-            <h1>GENERIC HIPSTER COFFEE</h1>
-            <p>SPECIALTY COFFEE, FRESH FOOD & LOCAL COMMUNITY.</p>
+            <div class="row">
+                <div class="col p-4">
+                    <img class="img-fluid" src="img/counter.jpg" alt="dummy image">
+                </div>
+            </div>
         </div>
 
         <div class="row">
-            <img class="img-fluid" src="img/counter.jpg" alt="dummy image">
+            <div class="col">
+                <p>OPENING HOUR</p>
+                <p>sunday - thursday: 8:00 - 23:00</p>
+            </div>
+            <div class="col">
+                <p>BOOK A TABLE </p>
+                <p>Call +1 415-321-4567</p>
+            </div>
+            <div class="col">
+                <p> ADDRESS </p>
+                <p>321 Ivy St.</p>
+                <p>San Fransisco, CA 94102</p>
+            </div>
         </div>
+
+        <div class="col p-4">
+            <img class="img-fluid" src="img/map.png" alt="dummy image">
+        </div>
+
+
     </div>
-
-    <div class="row">
-            <div class="col">
-              <p>OPENING HOUR</p>
-              <p>sunday - thursday: 8:00 - 23:00</p>
-            </div>
-            <div class="col">
-                    <p>BOOK A TABLE </p>
-                    <p>Call +1 415-321-4567</p>
-            </div>
-            <div class="col">
-                    <p> ADDRESS </p>
-                    <p>321 Ivy St.</p>
-                    <p>San Fransisco, CA 94102</p>
-            </div>
-    </div>
-
-
-
-
-
-
-
-
 
 
     
+   
 
-
-</div>
-{% endblock %}
+    {% endblock %}
